@@ -1,0 +1,322 @@
+
+body 
+
+{
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  background:  #0c0267;
+  color: #ffffff;
+  
+ 
+}
+
+
+.btn-group {
+  margin-bottom: 10px; /* Adiciona espaçamento abaixo do grupo de botões */
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.btn {
+  border-radius: 10px; /* Torna os botões arredondados */
+  margin-right: 10px; /* Adiciona espaçamento entre os botões */
+  border: none;
+  padding: 10px 20px; /* Aumenta o preenchimento interno */
+  background: linear-gradient(to bottom, #036ef1, #2412c6);
+  color: white; /* Define a cor do texto como branco */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  font-weight: 900;
+}
+
+.btn:hover {
+  color: #c0e909;
+}
+
+/* O último botão não precisa de margem à direita */
+.btn:last-child {
+  margin-right: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff; /* Cor padrão do texto */
+  transition: color 0.3s; /* Efeito de transição suave na cor */
+  margin-right: 40px;
+  margin-left: 40px;
+ 
+}
+
+/* Estilo para o bloco azul ao passar o mouse sobre o menu */
+.navbar-nav .nav-item:hover {
+  background-color: #2412c6; /* Cor de fundo azul durante o hover */
+  border-radius: 15px; /* Borda arredondada */
+
+}
+
+/* Adicione este estilo no seu arquivo CSS ou dentro da tag <style> no cabeçalho do HTML */
+.navbar-nav .active {
+  background-color: #2412c6; 
+  color: #fff; /* Cor do texto no item de menu ativo */
+  border-radius: 15px; /* Borda arredondada */
+  
+}
+
+/* Estilo para o link do menu no hover */
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fff; /* Cor branca durante o hover */
+}
+
+
+
+header {
+  position: relative;
+}
+
+.navbar {
+  z-index: 1; /* Coloca o menu sobre a imagem */
+}
+
+.navbar-toggler {
+  background-color: #fff; /* Cor de fundo do botão hambúrguer */
+ 
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* Cor do ícone do botão hambúrguer */
+}
+
+.custom-navbar {
+  background-color: #02204e;
+}
+
+
+.zoom-effect {
+  transition: transform 0.2s ease-in-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 15px; /* Adiciona um espaçamento interno de 15px */
+}
+
+
+.card-servicos {
+  border: 1px solid #3802da;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 30px 30px; 
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(66, 5, 219, 0.934);
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgb(252, 252, 252,0), rgba(7,98,217,0.9), rgb(1, 1, 2, 0.9));
+ color: #fff;
+ text-align: center;
+}
+.card-link-servicos{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+footer {
+  background-color: #02204e;
+  color: #fff;
+  padding: 20px 0;
+  
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+ 
+}
+
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh; /* Ajuste para ocupar toda a altura da tela */
+}
+
+.parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: brightness(0.4); /* Ajuste o valor para controlar o nível de escurecimento */
+
+}
+
+.parallax img {
+  width: 100%;
+  height: auto; /* Alterado para auto para manter a proporção da imagem */
+  min-height: 100%; /* Garante que a imagem ocupe toda a altura do container */
+  object-fit: cover;
+  display: block;
+  transform: translateZ(0);
+
+}
+
+
+.navbar-brand {
+  font-weight: 900;
+}
+
+
+/* sobre */
+
+.box {
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: left;
+  transition: all 0.3s ease;
+  color: #000000;
+}
+
+.square {
+  height: 100%;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.historia {
+  background-color: #ecede6; /* amarelo */
+  text-align: left; /* Alinha o texto ao centro */
+}
+
+.vision {
+  background-color: #ffad00; /* amarelo */
+
+ 
+}
+
+.mission {
+  background-color: #ef736c; /* vermelho */
+
+}
+
+.values {
+  background-color: #50a6ff; /* azul claro */
+
+
+}
+
+
+
+
+
+
+.parallax-time {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/10834364/pexels-photo-10834364.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: auto; /* Alterado para altura automática para se ajustar ao conteúdo */
+  padding: 50px 0; /* Adicionado preenchimento para melhorar o espaçamento do conteúdo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; /* Cor do texto */
+  font-weight: bold;
+
+}
+
+.parallax-time h2 {
+  margin-bottom: 2rem; /* Ajuste de margem inferior para o cabeçalho */
+}
+
+.team-member {
+  margin-bottom: 30px; /* Espaçamento entre membros da equipe */
+}
+
+.team-member img {
+  width: 100%; /* Ajuste a largura da imagem para ocupar 100% do contêiner pai */
+}
+
+.social-icons {
+  margin-top: 20px; /* Espaçamento superior para ícones sociais */
+}
+
+
+/* contato */
+
+
+
+
+/* Estilos para o formulário */
+.container-contato {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+  color: #000;
+  text-align: left;
+}
+
+.container-contato form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container-contato h2 {
+  color: #000000;
+}
+
+
+
+.container-contato textarea {
+  resize: none; /* Impede que o usuário redimensione o campo de texto */
+}
+
+.container-contato button[type="submit"] {
+  width: 100%;
+}
+
+/* Ajustes de estilo para o botão de WhatsApp */
+.container-contato .btn-whatsapp {
+  background-color: #25d366; /* Cor do WhatsApp */
+  border-color: #25d366; /* Cor da borda do WhatsApp */
+}
+
+.container-contato .btn-whatsapp:hover {
+  background-color: #128c7e; /* Cor do WhatsApp quando hover */
+  border-color: #128c7e; /* Cor da borda do WhatsApp quando hover */
+}
+
+.parallax-contato {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/9214104/pexels-photo-9214104.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: auto; /* Alterado para altura automática para se ajustar ao conteúdo */
+  padding: 50px 0; /* Adicionado preenchimento para melhorar o espaçamento do conteúdo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; /* Cor do texto */
+  font-weight: bold;
+
+}
+
+a {
+  color: #02c8c8; /* Cor padrão do link */
+  text-decoration: none; /* Remover sublinhado padrão */
+}
+
+/* CSS para o link quando o mouse passa sobre ele */
+a:hover {
+  color: #c0e909; /* Alterar a cor quando o mouse passa sobre */
+  text-decoration: none; /* Adicionar sublinhado quando o mouse passa sobre */
+}
+
+

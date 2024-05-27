@@ -1,0 +1,25 @@
+
+
+.card {
+  margin-top: 5rem; /* Ajusta a margem superior conforme necessário */
+  border-radius: 15px; /* Borda arredondada */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.card-body {
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+.card-title {
+  font-size: 1.6rem; /* Tamanho do título */
+  font-weight: bold; /* Negrito */
+}
+
+.card-text {
+  font-size: 1.3rem; /* Tamanho do texto */
+  color: #333; /* Cor do texto */
+}
+
+body{
+  background-color: rgb(159, 175, 225);
+}
